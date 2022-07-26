@@ -2,77 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <style>
+        <link rel="stylesheet" href="fanpage.css">
 
-                * {
-                        text-align: center;
-                }
+        <meta charset="UTF-8" />
 
-                div {
-                        margin: 70px;
-                }
-
-                .styledList {
-                        text-align: left;
-                        font-size: large;
-                }
-
-                h1 {
-                        font-size: 45px;
-                        font-style: unset;
-                }
-
-                h2 {
-                        font-size: 35px;
-                }
-
-                h3 {
-                        font-size: 25px;
-                }
-
-                p {
-                        font-size: 20px;
-                }
-
-                .grid-container {
-                        display: grid;
-                        grid-template-columns: auto auto auto;
-                        background-color: #3b3b3b;
-                        padding: 20px;
-                        }
-                
-                .grid-item {
-                        background-color: rgba(255, 255, 255, 0.8);
-                        border: 1px solid rgba(0, 0, 0, 0.8);
-                        padding: 20px;
-                        font-size: 30px;
-                        text-align: center;
-                }
-                <!-- trying to style the map with a border -->
-                #icon {
-                        border-style:solid;
-                        border-width:3px;
-                        border-color:black;
-                }
-                
-                sectionListen {
-                        margin: auto;
-                }
-
-                sectionMusic {
-                        margin: auto;
-                }
-
-                divMemory {
-                        margin: 70px;
-                }
-
-
-                </style>
-<meta charset="UTF-8" />
-
-<title>Mac Miller Fund</title>
-        <link rel="icon" type="image/jpg" href="https://ih1.redbubble.net/image.1035413606.0655/st,small,507x507-pad,600x600,f8f8f8.jpg">
+        <title>Mac Miller Fund</title>
+                <link rel="icon" type="image/jpg" href="https://ih1.redbubble.net/image.1035413606.0655/st,small,507x507-pad,600x600,f8f8f8.jpg">
 </head>
 
   <body>
@@ -88,12 +23,12 @@
                 
                         <h3>Point Breeze, Pittsburgh</h3>
                 
-                                <sectionMap>
+                                <section class = "map">
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53534.95267058599!2d-79.93281458366289!3d40.44207679172402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834ede5583d7941%3A0xc22a562d5d2851f2!2sPoint%20Breeze%2C%20Pittsburgh%2C%20PA!5e0!3m2!1sen!2sus!4v1658333407883!5m2!1sen!2sus"
                                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </sectionMap>
+                                </section>
 
-        <sectionMusic>
+        <section class = "music">
                 <h2>Malcolm's Music</h2>
                                 <p>He released his first mixtape in 2007 when he was 15. His stage name at the time? Easy Mac or <i>EZ</i> Mac. By 2012, he had released 3 mixtapes and won 2 awards for his music.</p>
                                 <p>Over the years, the albums listed below were my <strong>3 favorites</strong>.</p>
@@ -108,9 +43,9 @@
                                                         <i>Swimming</i></a>
                                                 </li>
                                 </ul>
-        </sectionMusic>
+        </section>
 
-        <sectionListen>
+        <section class = "listen">
                         <div class="grid-container">
                                         <div class="grid-item"> 
                                                 <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Best_Day_Ever_%28Mixtape%29_Cover.png" 
@@ -136,28 +71,27 @@
                                                         <a href='https://www.youtube.com/watch?v=VzAjXdBJsEc&list=PLb23bTgg3GgWKc53aZ-GAhED0G6iA9T-_&ab_channel=MacMiller-Topic' target="_blank">
                                                         <button><i>Swimming</i></button></a>
                                         </div>
-                                </div>
+                        </div>
         
-        </sectionListen>
+        </section>
 
-        <sectionVideo>
+        <section class = "video">
                 <h2>Never Heard of Malcolm "Mac Miller" McCormick?</h2>
                                 <p>If you're unfamilar with Mac Miller's work and his iconic personality on stage, watch this video of him and Stephen "Thundercat" Bruner performing on NPR's Tiny Desk.</p>
                                         <iframe width="420" height="345" src="https://www.youtube.com/watch?v=QrR_gm6RqCo&ab_channel=NPRMusicautoplay=1&mute=1">
                                         </iframe>
                                 <br>
-                        </sectionListen>
-        </sectionVideo>
+        </section>
         
-        <divMemory>
+        <div class = "memory">
                 <h2>Malcolm's Memory</h2>
                                 <p>In 2018, Malcolm passed away from a drug overdose. His impact on music persists to this day and the McCormick family works to direct that impact towards a positive cause. A month after he passed, the <a href="https://pittsburghfoundation.org/macmiller" target="_blank">Mac Miller Fund</a> was created to devlop music through communites and support those with substance abuse issues.</p>
                                 <br>
                                 <p>For those interested in donating, click below!</p>
                 
-                        <divVid>
+                        <div class = "vid">
                                 <a href="https://community.pittsburghfoundation.org/page.aspx?pid=298&fid=luj1AOGpvow%3d&&fdesc=%2ffG8KmfECqmbtQEzKp%2bV9Q%3d%3d" target="_blank"><button>Donate Now</button></a>
-                        </divVid>
-        </divMemory>
+                        </div>
+        </div>
   </body>
 </html>
